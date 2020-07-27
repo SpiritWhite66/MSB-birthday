@@ -1,0 +1,17 @@
+entity Anniversaire {
+	idUser String required
+    idGuildServer String required
+   	dateAnniversaire Date required
+}
+
+entity Scheduler {
+	idGuildServer String required
+    idChannel String required
+    activated Boolean required
+    activatedHour Time required
+}
+
+entity Pattern {
+	message String required
+}
+
