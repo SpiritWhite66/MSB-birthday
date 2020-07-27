@@ -1,7 +1,7 @@
 entity Anniversaire {
 	idUser String required
     idGuildServer String required 
-	dateAnniversaire DateTime
+	dateAnniversaire Instant
 }
 
 entity Scheduler {
